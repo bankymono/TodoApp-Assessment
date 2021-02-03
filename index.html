@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bb034dbd21.js" crossorigin="anonymous"></script>
+    <title>TodoApp</title>
+</head>
+<body>
+    <!-- Request to do from users -->
+    <div class="container">
+        <div class="input">
+            <input type="hidden" id="index">
+            <input type="text" name="todo" id="todo-input">
+            <button  class="visible" onclick="addTodo()" id="add-todo">Add Todo</button>
+            <button id="update"  class="invisible" onclick="updateTodo()">Update Todo</button>
+        </div>
+
+
+    <!-- List Todos -->
+    <ul id="todo-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
